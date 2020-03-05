@@ -1,0 +1,88 @@
+<event sensorid="kfsensor" id="95" type="Connection" action="SimStdServer" name="DHCP" protocol="UDP" severity="Low">
+  <start>2017-07-18 15:40:13:004</start>
+  <client domain="admin-PC.dhcp4.washington.edu" ip="10.16.29.173" port="68" />
+  <host ip="" bindip="" port="67" />
+  <connection closedby="Client" />
+  <recBytes>512</recBytes>
+  <received size="512" coding="kf"><![CDATA[DHCP: Boot Request%0A
+Hardware type: Ethernet (10Mb)%0A
+Hardware address length: 6%0A
+Hops: 0%0A
+Transaction ID: EB830113%0A
+Seconds elapsed: 0%0A
+Flags: Broadcast%0A
+Client IP: 10.16.29.173%0A
+Your (client) IP: %0A
+Next server IP: %0A
+Relay agent IP: %0A
+Client MAC: 08:00:27:E0:6C:B6%0A
+Server host name: {name not supplied}%0A
+Boot file name: {name not supplied}%0A
+Magic number: OK%0A
+Option 53: Message type = %0A
+Option 61: Client identifier %0A
+Option 12: Host name = "admin-PC"%0A
+Option 60: Vendor class id = "MSFT 5.0"%0A
+Option 55: Parameter request list%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="96" type="Native Connection" desc="Broadcast Packet" action="Native" name="DHCP Client" protocol="UDP" severity="Low" isBroadcast="TRUE">
+  <start>2017-07-18 15:40:14:180</start>
+  <client domain="" ip="10.16.0.4" port="67" />
+  <host ip="255.255.255.255" bindip="" port="68" />
+  <connection closedby="Client" />
+  <recBytes>300</recBytes>
+  <received size="300" coding="kf"><![CDATA[%02%01%06%01!ns%E5%00%00%80%00%00%00%00%00%0A
+%10%11%7F%00%00%00%00%0A
+%10%00%04%08%00'%E0l%B6%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00c%82Sc5%01%026%04%8C%8E%05]3%04%00%00%F1(%01%04%FF%FF%E0%00%0F%14dhcp4.washington.edu%03%04%0A
+%10%00%01%06%08%80_x%01%80_p%01%FF]]></received>
+</event>
+<event sensorid="kfsensor" id="97" type="Connection" action="SimStdServer" name="DHCP" protocol="UDP" severity="Low">
+  <start>2017-07-18 16:53:21:187</start>
+  <client domain="" ip="" port="68" />
+  <host ip="" bindip="" port="67" />
+  <connection closedby="Client" />
+  <recBytes>556</recBytes>
+  <received size="556" coding="kf"><![CDATA[DHCP: Boot Request%0A
+Hardware type: Ethernet (10Mb)%0A
+Hardware address length: 6%0A
+Hops: 0%0A
+Transaction ID: 9A12037B%0A
+Seconds elapsed: 0%0A
+Flags: Broadcast%0A
+Client IP: %0A
+Your (client) IP: %0A
+Next server IP: %0A
+Relay agent IP: %0A
+Client MAC: 08:00:27:FB:E7:5D%0A
+Server host name: {name not supplied}%0A
+Boot file name: {name not supplied}%0A
+Magic number: OK%0A
+Option 53: Message type = DHCP REQUEST%0A
+Option 61: Client identifier %0A
+Option 50: Requested IP %0A
+Option 12: Host name = "DESKTOP-750R1U0"%0A
+Option 81: %0A
+Option 60: Vendor class id = "MSFT 5.0"%0A
+Option 55: Parameter request list%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="98" type="Native Connection" desc="Broadcast Packet" action="Native" name="DHCP Client" protocol="UDP" severity="Low" isBroadcast="TRUE">
+  <start>2017-07-18 16:53:43:106</start>
+  <client domain="" ip="172.31.98.1" port="67" />
+  <host ip="255.255.255.255" bindip="" port="68" />
+  <connection closedby="Client" />
+  <recBytes>296</recBytes>
+  <received size="296" coding="kf"><![CDATA[%02%01%06%00MK%BF%1E%00%00%80%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%A44%D9%D7%0C!%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00c%82Sc5%01%066%04%AC%1Fb%018%0Dwrong network%FF%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00]]></received>
+</event>
+<event sensorid="kfsensor" id="99" type="Native Connection" desc="Broadcast Packet" action="Native" name="DHCP Client" protocol="UDP" severity="Low" isBroadcast="TRUE">
+  <start>2017-07-18 18:10:52:468</start>
+  <client domain="" ip="10.16.0.3" port="67" />
+  <host ip="255.255.255.255" bindip="" port="68" />
+  <connection closedby="Client" />
+  <recBytes>300</recBytes>
+  <received size="300" coding="kf"><![CDATA[%02%01%06%01%F0%88%09G%05%00%80%00%00%00%00%00%00%00%00%00%00%00%00%00%0A
+%10%00%03%08%00'%E0l%B6%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00c%82Sc5%01%066%04%8C%8E%05]8%1Frequested address not available%FF%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00]]></received>
+</event>

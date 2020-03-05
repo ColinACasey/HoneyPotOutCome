@@ -1,0 +1,23 @@
+[2017/07/15 19:44:47.447 6 -0700] Service starting {INFO}  <5.3.0>
+[2017/07/15 19:44:47.480 6 -0700] Site: Home; 127.0.0.1:8351 {INFO}  <C:\Program Files (x86)\KeyFocus\KFSensor\files\kfmond\home>
+[2017/07/15 19:44:47.485 6 -0700] Service started {NOTICE}  <5.3.0>
+[2017/07/16 21:47:44.128 7 -0700] Service starting {INFO}  <5.3.0>
+[2017/07/16 21:47:44.222 7 -0700] Site: Home; 127.0.0.1:8351 {INFO}  <C:\Program Files (x86)\KeyFocus\KFSensor\files\kfmond\home>
+[2017/07/16 21:47:44.233 7 -0700] Service started {NOTICE}  <5.3.0>
+[2017/07/16 21:52:44.242 7 -0700] Database connection open failure {ERROR} 
+[2017/07/16 22:04:36.862 7 -0700] Service starting {INFO}  <5.3.0>
+[2017/07/16 22:04:36.896 7 -0700] Site: Home; 127.0.0.1:8351 {INFO}  <C:\Program Files (x86)\KeyFocus\KFSensor\files\kfmond\home>
+[2017/07/16 22:04:36.900 7 -0700] Service started {NOTICE}  <5.3.0>
+[2017/07/16 22:09:36.910 7 -0700] Database connection open failure {ERROR} 
+[2017/07/17 03:17:30.734 1 -0700] Service starting {INFO}  <5.3.0>
+[2017/07/17 03:17:30.765 1 -0700] Site: Home; 127.0.0.1:8351 {INFO}  <C:\Program Files (x86)\KeyFocus\KFSensor\files\kfmond\home>
+[2017/07/17 03:17:30.781 1 -0700] Service started {NOTICE}  <5.3.0>
+[2017/07/17 03:22:30.851 1 -0700] Database connection open failure {ERROR} 
+[2017/07/18 08:40:10.822 2 -0700] Service starting {INFO}  <5.3.0>
+[2017/07/18 08:40:10.861 2 -0700] Site: Home; 127.0.0.1:8351 {INFO}  <C:\Program Files (x86)\KeyFocus\KFSensor\files\kfmond\home>
+[2017/07/18 08:40:10.869 2 -0700] Service started {NOTICE}  <5.3.0>
+[2017/07/18 08:45:11.234 2 -0700] Database connection open failure {ERROR} 
+[2017/07/25 16:56:05.045 2 -0700] Service starting {INFO}  <5.3.0>
+[2017/07/25 16:56:05.081 2 -0700] Site: Home; 127.0.0.1:8351 {INFO}  <C:\Program Files (x86)\KeyFocus\KFSensor\files\kfmond\home>
+[2017/07/25 16:56:05.098 2 -0700] Service started {NOTICE}  <5.3.0>
+[2017/07/25 17:01:05.812 2 -0700] Database connection open failure {ERROR} 

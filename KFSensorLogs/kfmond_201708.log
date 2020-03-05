@@ -1,0 +1,4 @@
+[2017/08/01 10:27:56.537 2 -0700] Service starting {INFO}  <5.3.0>
+[2017/08/01 10:27:56.576 2 -0700] Site: Home; 127.0.0.1:8351 {INFO}  <C:\Program Files (x86)\KeyFocus\KFSensor\files\kfmond\home>
+[2017/08/01 10:27:56.583 2 -0700] Service started {NOTICE}  <5.3.0>
+[2017/08/01 10:32:56.608 2 -0700] Database connection open failure {ERROR} 

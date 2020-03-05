@@ -1,0 +1,107 @@
+<event sensorid="kfsensor" id="112" type="Connection" action="SimStdServer" name="DHCP" protocol="UDP" severity="Low">
+  <start>2017-08-01 17:27:59:723</start>
+  <client domain="admin-PC.dhcp4.washington.edu" ip="10.16.29.173" port="68" />
+  <host ip="" bindip="" port="67" />
+  <connection closedby="Client" />
+  <recBytes>512</recBytes>
+  <received size="512" coding="kf"><![CDATA[DHCP: Boot Request%0A
+Hardware type: Ethernet (10Mb)%0A
+Hardware address length: 6%0A
+Hops: 0%0A
+Transaction ID: D69CFF76%0A
+Seconds elapsed: 0%0A
+Flags: Broadcast%0A
+Client IP: 10.16.29.173%0A
+Your (client) IP: %0A
+Next server IP: %0A
+Relay agent IP: %0A
+Client MAC: 08:00:27:E0:6C:B6%0A
+Server host name: {name not supplied}%0A
+Boot file name: {name not supplied}%0A
+Magic number: OK%0A
+Option 53: Message type = %0A
+Option 61: Client identifier %0A
+Option 12: Host name = "admin-PC"%0A
+Option 60: Vendor class id = "MSFT 5.0"%0A
+Option 55: Parameter request list%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="113" type="Native Connection" desc="Broadcast Packet" action="Native" name="DHCP Client" protocol="UDP" severity="Low" isBroadcast="TRUE">
+  <start>2017-08-01 17:28:00:925</start>
+  <client domain="" ip="10.16.0.4" port="67" />
+  <host ip="255.255.255.255" bindip="" port="68" />
+  <connection closedby="Client" />
+  <recBytes>300</recBytes>
+  <received size="300" coding="kf"><![CDATA[%02%01%06%01%F2Z\%C2%00%00%80%00%00%00%00%00%0A
+%10%19%D7%00%00%00%00%0A
+%10%00%04%08%00'%E0l%B6%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00c%82Sc5%01%026%04%8C%8E%05]3%04%00%00%03%84%01%04%FF%FF%E0%00%0F%14dhcp4.washington.edu%03%04%0A
+%10%00%01%06%08%80_x%01%80_p%01%FF]]></received>
+</event>
+<event sensorid="kfsensor" id="114" type="Native Connection" desc="Broadcast Packet" action="Native" name="DHCP Client" protocol="UDP" severity="Low" isBroadcast="TRUE">
+  <start>2017-08-01 17:36:00:048</start>
+  <client domain="" ip="10.16.0.3" port="67" />
+  <host ip="255.255.255.255" bindip="" port="68" />
+  <connection closedby="Client" />
+  <recBytes>300</recBytes>
+  <received size="300" coding="kf"><![CDATA[%02%01%06%01%96Q#%B5%00%00%80%00%00%00%00%00%0A
+%10%19%D7%00%00%00%00%0A
+%10%00%03%08%00'%E0l%B6%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00c%82Sc5%01%056%04%8C%8E%05U3%04%00%01Q%80%01%04%FF%FF%E0%00%0F%14dhcp4.washington.edu%03%04%0A
+%10%00%01%06%08%80_x%01%80_p%01%FF]]></received>
+</event>
+<event sensorid="kfsensor" id="115" type="Connection" action="SimStdServer" name="DHCP" protocol="UDP" severity="Low">
+  <start>2017-08-01 17:50:29:755</start>
+  <client domain="" ip="" port="68" />
+  <host ip="" bindip="" port="67" />
+  <connection closedby="Client" />
+  <recBytes>538</recBytes>
+  <received size="538" coding="kf"><![CDATA[DHCP: Boot Request%0A
+Hardware type: Ethernet (10Mb)%0A
+Hardware address length: 6%0A
+Hops: 0%0A
+Transaction ID: 50578424%0A
+Seconds elapsed: 0%0A
+Flags: Broadcast%0A
+Client IP: %0A
+Your (client) IP: %0A
+Next server IP: %0A
+Relay agent IP: %0A
+Client MAC: 08:00:27:E0:6C:B6%0A
+Server host name: {name not supplied}%0A
+Boot file name: {name not supplied}%0A
+Magic number: OK%0A
+Option 53: Message type = DHCP DISCOVER%0A
+Option 61: Client identifier %0A
+Option 50: Requested IP %0A
+Option 12: Host name = "admin-PC"%0A
+Option 60: Vendor class id = "MSFT 5.0"%0A
+Option 55: Parameter request list%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="116" type="Native Connection" desc="Broadcast Packet" action="Native" name="DHCP Client" protocol="UDP" severity="Low" isBroadcast="TRUE">
+  <start>2017-08-01 17:50:30:660</start>
+  <client domain="" ip="10.16.0.4" port="67" />
+  <host ip="255.255.255.255" bindip="" port="68" />
+  <connection closedby="Client" />
+  <recBytes>300</recBytes>
+  <received size="300" coding="kf"><![CDATA[%02%01%06%01PW%84$%00%00%80%00%00%00%00%00%0A
+%10%1D%AD%00%00%00%00%0A
+%10%00%04%08%00'%E0l%B6%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00c%82Sc5%01%026%04%8C%8E%05U3%04%00%00%03%84%01%04%FF%FF%E0%00%0F%14dhcp4.washington.edu%03%04%0A
+%10%00%01%06%08%80_x%01%80_p%01%FF]]></received>
+</event>
+<event sensorid="kfsensor" id="117" type="Connection" action="SimStdServer" name="NBT Datagram Service" protocol="UDP" severity="Low">
+  <start>2017-08-01 17:55:05:378</start>
+  <client domain="admin-PC.dhcp4.washington.edu" ip="10.16.29.173" port="138" />
+  <host ip="" bindip="" port="138" />
+  <connection closedby="Client" />
+  <recBytes>166</recBytes>
+  <received size="166" coding="kf"><![CDATA[NBT DGRAM Packet: id:33954  Type: Direct Group%0D%0A
+Source: ADMIN-PC<00 Workstation Service>%0D%0A
+Destination: WORKGROUP<1d Master Browser>%0D%0A
+SMB: [trans] %0D%0A
+    name: {}%0D%0A
+%0D%0A
+%0D%0A
+]]></received>
+</event>

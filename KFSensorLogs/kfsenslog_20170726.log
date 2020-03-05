@@ -1,0 +1,47 @@
+<event sensorid="kfsensor" id="109" type="Scan" desc="Syn Scan" action="Sniff" name="SSH" protocol="TCP" severity="High">
+  <start>2017-07-26 00:00:11:020</start>
+  <end>2017-07-26 00:00:20:021</end>
+  <client domain="DESKTOP-807S1TS" ip="192.168.0.10" port="58718" />
+  <host ip="192.168.0.28" bindip="" port="22" />
+  <connection closedby="Server" />
+</event>
+<event sensorid="kfsensor" id="110" type="Native Connection" desc="Broadcast Packet" action="Native" name="DHCP Client" protocol="UDP" severity="Low" isBroadcast="TRUE">
+  <start>2017-07-26 00:01:13:195</start>
+  <client domain="" ip="10.16.0.4" port="67" />
+  <host ip="255.255.255.255" bindip="" port="68" />
+  <connection closedby="Client" />
+  <recBytes>300</recBytes>
+  <received size="300" coding="kf"><![CDATA[%02%01%06%01%0C%9E%D8b%03%00%80%00%00%00%00%00%00%00%00%00%00%00%00%00%0A
+%10%00%04%08%00'%E0l%B6%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00c%82Sc5%01%066%04%8C%8E%05]8%1Frequested address not available%FF%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00]]></received>
+</event>
+<event sensorid="kfsensor" id="111" type="Connection" action="SimStdServer" name="DHCP" protocol="UDP" severity="Low">
+  <start>2017-07-26 00:02:08:078</start>
+  <client domain="" ip="" port="68" />
+  <host ip="" bindip="" port="67" />
+  <connection closedby="Client" />
+  <recBytes>554</recBytes>
+  <received size="554" coding="kf"><![CDATA[DHCP: Boot Request%0A
+Hardware type: Ethernet (10Mb)%0A
+Hardware address length: 6%0A
+Hops: 0%0A
+Transaction ID: E3DE5FE1%0A
+Seconds elapsed: 0%0A
+Flags: Unicast%0A
+Client IP: %0A
+Your (client) IP: %0A
+Next server IP: %0A
+Relay agent IP: %0A
+Client MAC: A4:34:D9:D7:0C:21%0A
+Server host name: {name not supplied}%0A
+Boot file name: {name not supplied}%0A
+Magic number: OK%0A
+Option 53: Message type = DHCP REQUEST%0A
+Option 61: Client identifier %0A
+Option 50: Requested IP %0A
+Option 12: Host name = "DESKTOP-807S1TS"%0A
+Option 81: %0A
+Option 60: Vendor class id = "MSFT 5.0"%0A
+Option 55: Parameter request list%0D%0A
+%0D%0A
+]]></received>
+</event>

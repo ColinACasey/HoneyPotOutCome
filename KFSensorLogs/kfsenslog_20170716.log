@@ -1,0 +1,965 @@
+<event sensorid="kfsensor" id="38" type="Connection" action="SimStdServer" name="DHCP" protocol="UDP" severity="Low">
+  <start>2017-07-16 02:32:19:927</start>
+  <client domain="admin-PC" ip="192.168.0.26" port="68" />
+  <host ip="" bindip="" port="67" />
+  <connection closedby="Client" />
+  <recBytes>557</recBytes>
+  <received size="557" coding="kf"><![CDATA[DHCP: Boot Request%0A
+Hardware type: Ethernet (10Mb)%0A
+Hardware address length: 6%0A
+Hops: 0%0A
+Transaction ID: 62D264A8%0A
+Seconds elapsed: 0%0A
+Flags: Broadcast%0A
+Client IP: %0A
+Your (client) IP: %0A
+Next server IP: %0A
+Relay agent IP: %0A
+Client MAC: 08:00:27:E0:6C:B6%0A
+Server host name: {name not supplied}%0A
+Boot file name: {name not supplied}%0A
+Magic number: OK%0A
+Option 53: Message type = DHCP DISCOVER%0A
+Option 77: %0A
+Option 116: Auto-configuration %0A
+Option 61: Client identifier %0A
+Option 12: Host name = "admin-PC"%0A
+Option 60: Vendor class id = "MSFT 5.0"%0A
+Option 55: Parameter request list%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="39" type="Native Connection" desc="Broadcast Packet" action="Native" name="DHCP Client" protocol="UDP" severity="Low" isBroadcast="TRUE">
+  <start>2017-07-16 02:32:20:667</start>
+  <client domain="" ip="192.168.0.1" port="67" />
+  <host ip="255.255.255.255" bindip="" port="68" />
+  <connection closedby="Client" />
+  <recBytes>548</recBytes>
+  <received size="548" coding="kf"><![CDATA[%02%01%06%00b%D2d%A8%00%00%80%00%00%00%00%00%C0%A8%00%1B%00%00%00%00%00%00%00%00%08%00'%E0l%B6%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00c%82Sc5%01%026%04%C0%A8%00%013%04%00%01Q%80%01%04%FF%FF%FF%00%03%04%C0%A8%00%01%06%04%C0%A8%00%01%FF%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00]]></received>
+</event>
+<event sensorid="kfsensor" id="40" type="Closed Port" desc="Broadcast Packet" action="Sniff" name="UDP Packet" protocol="UDP" severity="High" isBroadcast="TRUE">
+  <start>2017-07-16 02:32:39:302</start>
+  <client domain="" ip="192.168.0.1" port="2190" />
+  <host ip="192.168.0.255" bindip="" port="2190" />
+  <connection closedby="Client" />
+  <recBytes>177</recBytes>
+  <received size="177" coding="kf"><![CDATA[TiVoConnect=1%0A
+swversion=1.0%0A
+method=broadcast%0A
+identity=uuid:4d696e69-444c-164e-9d41-10da43947e50%0A
+machine=ReadyDLNA: D6400%0A
+platform=pc/minidlna%0A
+services=TiVoMediaServer:8200/http%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="41" type="Connection" action="SimStdServer" name="DHCP" protocol="UDP" severity="Low">
+  <start>2017-07-16 02:32:53:877</start>
+  <client domain="" ip="" port="68" />
+  <host ip="" bindip="" port="67" />
+  <connection closedby="Client" />
+  <recBytes>517</recBytes>
+  <received size="517" coding="kf"><![CDATA[DHCP: Boot Request%0A
+Hardware type: Ethernet (10Mb)%0A
+Hardware address length: 6%0A
+Hops: 0%0A
+Transaction ID: 722CC2F7%0A
+Seconds elapsed: 0%0A
+Flags: Unicast%0A
+Client IP: %0A
+Your (client) IP: %0A
+Next server IP: %0A
+Relay agent IP: %0A
+Client MAC: 34:36:3B:30:3F:92%0A
+Server host name: {name not supplied}%0A
+Boot file name: {name not supplied}%0A
+Magic number: OK%0A
+Option 53: Message type = DHCP REQUEST%0A
+Option 55: Parameter request list%0A
+Option 57: %0A
+Option 61: Client identifier %0A
+Option 50: Requested IP %0A
+Option 51: %0A
+Option 12: Host name = "iPhone"%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="42" type="Closed Port" desc="Broadcast Packet" action="Sniff" name="UDP Packet" protocol="UDP" severity="High" isBroadcast="TRUE">
+  <start>2017-07-16 02:33:39:308</start>
+  <client domain="" ip="192.168.0.1" port="2190" />
+  <host ip="192.168.0.255" bindip="" port="2190" />
+  <connection closedby="Client" />
+  <recBytes>177</recBytes>
+  <received size="177" coding="kf"><![CDATA[TiVoConnect=1%0A
+swversion=1.0%0A
+method=broadcast%0A
+identity=uuid:4d696e69-444c-164e-9d41-10da43947e50%0A
+machine=ReadyDLNA: D6400%0A
+platform=pc/minidlna%0A
+services=TiVoMediaServer:8200/http%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="43" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:34:29:693</start>
+  <client domain="" ip="192.168.0.3" port="43190" />
+  <host ip="192.168.0.26" bindip="" port="63525" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:34:02 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.3:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: cec3441e-1dd1-11b2-9c53-e59585693452%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:8facc1c4-d732-dcfa-3223-50a4fb730191::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 585%0D%0A
+CONFIGID.UPNP.ORG: 3%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="44" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:34:29:697</start>
+  <client domain="" ip="192.168.0.2" port="38342" />
+  <host ip="192.168.0.26" bindip="" port="63525" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:34:03 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.2:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: 6c7efb16-1dd2-11b2-b65a-89066ccce430%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:255428d1-8ce6-8b0d-7b3a-8c5d7ac61f14::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 991%0D%0A
+CONFIGID.UPNP.ORG: 2%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="45" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:34:30:621</start>
+  <client domain="" ip="192.168.0.3" port="40688" />
+  <host ip="192.168.0.26" bindip="" port="63525" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:34:03 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.3:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: cec3441e-1dd1-11b2-9c53-e59585693452%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:8facc1c4-d732-dcfa-3223-50a4fb730191::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 585%0D%0A
+CONFIGID.UPNP.ORG: 3%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="46" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:34:30:634</start>
+  <client domain="" ip="192.168.0.2" port="58759" />
+  <host ip="192.168.0.26" bindip="" port="63525" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:34:04 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.2:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: 6c7efb16-1dd2-11b2-b65a-89066ccce430%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:255428d1-8ce6-8b0d-7b3a-8c5d7ac61f14::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 991%0D%0A
+CONFIGID.UPNP.ORG: 2%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="47" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:34:31:645</start>
+  <client domain="" ip="192.168.0.3" port="34121" />
+  <host ip="192.168.0.26" bindip="" port="63525" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:34:04 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.3:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: cec3441e-1dd1-11b2-9c53-e59585693452%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:8facc1c4-d732-dcfa-3223-50a4fb730191::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 585%0D%0A
+CONFIGID.UPNP.ORG: 3%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="48" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:34:31:645</start>
+  <client domain="" ip="192.168.0.2" port="50162" />
+  <host ip="192.168.0.26" bindip="" port="63525" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:34:05 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.2:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: 6c7efb16-1dd2-11b2-b65a-89066ccce430%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:255428d1-8ce6-8b0d-7b3a-8c5d7ac61f14::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 991%0D%0A
+CONFIGID.UPNP.ORG: 2%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="49" type="Closed Port" desc="Broadcast Packet" action="Sniff" name="UDP Packet" protocol="UDP" severity="High" isBroadcast="TRUE">
+  <start>2017-07-16 02:34:39:317</start>
+  <client domain="" ip="192.168.0.1" port="2190" />
+  <host ip="192.168.0.255" bindip="" port="2190" />
+  <connection closedby="Client" />
+  <recBytes>177</recBytes>
+  <received size="177" coding="kf"><![CDATA[TiVoConnect=1%0A
+swversion=1.0%0A
+method=broadcast%0A
+identity=uuid:4d696e69-444c-164e-9d41-10da43947e50%0A
+machine=ReadyDLNA: D6400%0A
+platform=pc/minidlna%0A
+services=TiVoMediaServer:8200/http%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="50" type="Connection" desc="url;GET /| host;192.168.0.26| agent;Mozilla/5.0 (Windows NT 6.1'; Win64'; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36" action="SimStdServer" name="IIS" simname="IIS" protocol="TCP" severity="Medium">
+  <start>2017-07-16 02:34:44:443</start>
+  <end>2017-07-16 02:34:44:540</end>
+  <client domain="admin-PC" ip="192.168.0.26" port="49183" />
+  <host ip="192.168.0.26" bindip="" port="80" />
+  <connection closedby="Server" />
+  <recBytes>380</recBytes>
+  <received size="380" coding="kf"><![CDATA[GET / HTTP/1.1%0D%0A
+Host: 192.168.0.26%0D%0A
+Connection: keep-alive%0D%0A
+Upgrade-Insecure-Requests: 1%0D%0A
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36%0D%0A
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8%0D%0A
+Accept-Encoding: gzip, deflate%0D%0A
+Accept-Language: en-US,en;q=0.8%0D%0A
+%0D%0A
+]]></received>
+  <sentBytes>957</sentBytes>
+  <sent size="415" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+Content-Type: text/html%0D%0A
+Last-Modified: Sat, 21 Jun 2008 02:10:44 GMT%0D%0A
+Accept-Ranges: bytes%0D%0A
+ETag: "c9b74fe7088b77a:6f9"%0D%0A
+Server: Microsoft-IIS/7.5%0D%0A
+X-Powered-By: ASP.NET%0D%0A
+Date: Sun, 16 Jul 2017 02:34:44 GMT%0D%0A
+Connection: close%0D%0A
+Content-Length: 689%0D%0A
+%0D%0A
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">%0D%0A
+[... recorded 379 of 957 bytes...]%0D%0A
+]]></sent>
+</event>
+<event sensorid="kfsensor" id="51" type="Connection" desc="url;GET /welcome.png| host;192.168.0.26| agent;Mozilla/5.0 (Windows NT 6.1'; Win64'; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36| referer;http://192.168.0.26/" action="SimStdServer" name="IIS" simname="IIS" protocol="TCP" severity="Medium">
+  <start>2017-07-16 02:34:44:491</start>
+  <end>2017-07-16 02:34:44:567</end>
+  <client domain="admin-PC" ip="192.168.0.26" port="49184" />
+  <host ip="192.168.0.26" bindip="" port="80" />
+  <connection closedby="Server" />
+  <recBytes>346</recBytes>
+  <received size="346" coding="kf"><![CDATA[GET /welcome.png HTTP/1.1%0D%0A
+Host: 192.168.0.26%0D%0A
+Connection: keep-alive%0D%0A
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36%0D%0A
+Accept: image/webp,image/apng,image/*,*/*;q=0.8%0D%0A
+Referer: http://192.168.0.26/%0D%0A
+Accept-Encoding: gzip, deflate%0D%0A
+Accept-Language: en-US,en;q=0.8%0D%0A
+%0D%0A
+]]></received>
+  <sentBytes>185217</sentBytes>
+  <sent size="316" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+Content-Type: image/png%0D%0A
+Last-Modified: Sat, 21 Jun 2008 02:10:44 GMT%0D%0A
+Accept-Ranges: bytes%0D%0A
+ETag: "039530be5182a30:6f9"%0D%0A
+Server: Microsoft-IIS/7.5%0D%0A
+X-Powered-By: ASP.NET%0D%0A
+Date: Sun, 16 Jul 2017 02:34:44 GMT%0D%0A
+Connection: close%0D%0A
+Content-Length: 184946%0D%0A
+%0D%0A
+%89PNG%0D%0A
+[... recorded 277 of 185217 bytes...]%0D%0A
+]]></sent>
+</event>
+<event sensorid="kfsensor" id="52" type="Connection" desc="url;GET /favicon.ico| host;192.168.0.26| agent;Mozilla/5.0 (Windows NT 6.1'; Win64'; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36| referer;http://192.168.0.26/" action="SimStdServer" name="IIS" simname="IIS" protocol="TCP" severity="Medium">
+  <start>2017-07-16 02:34:44:597</start>
+  <end>2017-07-16 02:34:44:608</end>
+  <client domain="admin-PC" ip="192.168.0.26" port="49185" />
+  <host ip="192.168.0.26" bindip="" port="80" />
+  <connection closedby="Server" />
+  <recBytes>346</recBytes>
+  <received size="346" coding="kf"><![CDATA[GET /favicon.ico HTTP/1.1%0D%0A
+Host: 192.168.0.26%0D%0A
+Connection: keep-alive%0D%0A
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36%0D%0A
+Accept: image/webp,image/apng,image/*,*/*;q=0.8%0D%0A
+Referer: http://192.168.0.26/%0D%0A
+Accept-Encoding: gzip, deflate%0D%0A
+Accept-Language: en-US,en;q=0.8%0D%0A
+%0D%0A
+]]></received>
+  <sentBytes>519</sentBytes>
+  <sent size="466" coding="kf"><![CDATA[HTTP/1.1 404 Not Found%0D%0A
+Content-Type: text/html; charset=us-ascii%0D%0A
+Server: Microsoft-IIS/7.5%0D%0A
+X-Powered-By: ASP.NET%0D%0A
+Date: Sun, 16 Jul 2017 02:34:44 GMT%0D%0A
+Connection: close%0D%0A
+Content-Length: 323%0D%0A
+%0D%0A
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">%0D%0A
+<HTML><HEAD><TITLE>Not Found</TITLE>%0D%0A
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>%0D%0A
+<BODY><h2>Not Found</h2>%0D%0A
+[... recorded 430 of 519 bytes...]%0D%0A
+]]></sent>
+</event>
+<event sensorid="kfsensor" id="53" type="Scan" desc="Syn Scan" action="Sniff" name="TCP Syn Scan" protocol="TCP" severity="High">
+  <start>2017-07-16 02:35:07:823</start>
+  <end>2017-07-16 02:35:16:848</end>
+  <client domain="DESKTOP-750R1U0" ip="192.168.0.25" port="50158" />
+  <host ip="192.168.0.26" bindip="" port="100" />
+  <connection closedby="Server" />
+</event>
+<event sensorid="kfsensor" id="54" type="Scan" desc="Syn Scan" action="Sniff" name="IIS" protocol="TCP" severity="High">
+  <start>2017-07-16 02:35:48:229</start>
+  <end>2017-07-16 02:35:51:239</end>
+  <client domain="DESKTOP-750R1U0" ip="192.168.0.25" port="50171" />
+  <host ip="192.168.0.26" bindip="" port="80" />
+  <connection closedby="Server" />
+</event>
+<event sensorid="kfsensor" id="55" type="Scan" desc="Syn Scan" action="Sniff" name="IIS" protocol="TCP" severity="High">
+  <start>2017-07-16 02:35:48:493</start>
+  <end>2017-07-16 02:35:51:536</end>
+  <client domain="DESKTOP-750R1U0" ip="192.168.0.25" port="50173" />
+  <host ip="192.168.0.26" bindip="" port="80" />
+  <connection closedby="Server" />
+</event>
+<event sensorid="kfsensor" id="56" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:36:20:814</start>
+  <client domain="" ip="192.168.0.2" port="33139" />
+  <host ip="192.168.0.26" bindip="" port="59285" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:35:54 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.2:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: 6c7efb16-1dd2-11b2-b65a-89066ccce430%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:255428d1-8ce6-8b0d-7b3a-8c5d7ac61f14::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 991%0D%0A
+CONFIGID.UPNP.ORG: 2%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="57" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:36:20:816</start>
+  <client domain="" ip="192.168.0.3" port="40516" />
+  <host ip="192.168.0.26" bindip="" port="59285" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:35:53 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.3:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: cec3441e-1dd1-11b2-9c53-e59585693452%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:8facc1c4-d732-dcfa-3223-50a4fb730191::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 585%0D%0A
+CONFIGID.UPNP.ORG: 3%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="58" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:36:21:873</start>
+  <client domain="" ip="192.168.0.2" port="54631" />
+  <host ip="192.168.0.26" bindip="" port="59285" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:35:55 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.2:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: 6c7efb16-1dd2-11b2-b65a-89066ccce430%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:255428d1-8ce6-8b0d-7b3a-8c5d7ac61f14::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 991%0D%0A
+CONFIGID.UPNP.ORG: 2%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="59" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:36:21:892</start>
+  <client domain="" ip="192.168.0.3" port="35013" />
+  <host ip="192.168.0.26" bindip="" port="59285" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:35:54 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.3:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: cec3441e-1dd1-11b2-9c53-e59585693452%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:8facc1c4-d732-dcfa-3223-50a4fb730191::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 585%0D%0A
+CONFIGID.UPNP.ORG: 3%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="60" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:36:22:862</start>
+  <client domain="" ip="192.168.0.2" port="55256" />
+  <host ip="192.168.0.26" bindip="" port="59285" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:35:56 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.2:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: 6c7efb16-1dd2-11b2-b65a-89066ccce430%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:255428d1-8ce6-8b0d-7b3a-8c5d7ac61f14::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 991%0D%0A
+CONFIGID.UPNP.ORG: 2%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="61" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:36:22:872</start>
+  <client domain="" ip="192.168.0.3" port="46796" />
+  <host ip="192.168.0.26" bindip="" port="59285" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:35:55 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.3:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: cec3441e-1dd1-11b2-9c53-e59585693452%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:8facc1c4-d732-dcfa-3223-50a4fb730191::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 585%0D%0A
+CONFIGID.UPNP.ORG: 3%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="62" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:38:20:919</start>
+  <client domain="" ip="192.168.0.3" port="56490" />
+  <host ip="192.168.0.26" bindip="" port="62075" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:37:52 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.3:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: cec3441e-1dd1-11b2-9c53-e59585693452%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:8facc1c4-d732-dcfa-3223-50a4fb730191::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 585%0D%0A
+CONFIGID.UPNP.ORG: 3%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="63" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:38:20:919</start>
+  <client domain="" ip="192.168.0.2" port="40229" />
+  <host ip="192.168.0.26" bindip="" port="62075" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:37:54 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.2:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: 6c7efb16-1dd2-11b2-b65a-89066ccce430%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:255428d1-8ce6-8b0d-7b3a-8c5d7ac61f14::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 991%0D%0A
+CONFIGID.UPNP.ORG: 2%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="64" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:38:22:107</start>
+  <client domain="" ip="192.168.0.2" port="46506" />
+  <host ip="192.168.0.26" bindip="" port="62075" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:37:55 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.2:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: 6c7efb16-1dd2-11b2-b65a-89066ccce430%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:255428d1-8ce6-8b0d-7b3a-8c5d7ac61f14::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 991%0D%0A
+CONFIGID.UPNP.ORG: 2%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="65" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:38:22:107</start>
+  <client domain="" ip="192.168.0.3" port="39433" />
+  <host ip="192.168.0.26" bindip="" port="62075" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:37:54 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.3:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: cec3441e-1dd1-11b2-9c53-e59585693452%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:8facc1c4-d732-dcfa-3223-50a4fb730191::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 585%0D%0A
+CONFIGID.UPNP.ORG: 3%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="66" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:38:23:107</start>
+  <client domain="" ip="192.168.0.3" port="41242" />
+  <host ip="192.168.0.26" bindip="" port="62075" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:37:55 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.3:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: cec3441e-1dd1-11b2-9c53-e59585693452%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:8facc1c4-d732-dcfa-3223-50a4fb730191::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 585%0D%0A
+CONFIGID.UPNP.ORG: 3%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="67" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:38:23:107</start>
+  <client domain="" ip="192.168.0.2" port="47845" />
+  <host ip="192.168.0.26" bindip="" port="62075" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:37:56 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.2:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: 6c7efb16-1dd2-11b2-b65a-89066ccce430%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:255428d1-8ce6-8b0d-7b3a-8c5d7ac61f14::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 991%0D%0A
+CONFIGID.UPNP.ORG: 2%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="68" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:40:21:459</start>
+  <client domain="" ip="192.168.0.2" port="32925" />
+  <host ip="192.168.0.26" bindip="" port="65420" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:39:54 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.2:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: 6c7efb16-1dd2-11b2-b65a-89066ccce430%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:255428d1-8ce6-8b0d-7b3a-8c5d7ac61f14::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 991%0D%0A
+CONFIGID.UPNP.ORG: 2%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="69" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:40:21:459</start>
+  <client domain="" ip="192.168.0.3" port="33886" />
+  <host ip="192.168.0.26" bindip="" port="65420" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:39:53 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.3:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: cec3441e-1dd1-11b2-9c53-e59585693452%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:8facc1c4-d732-dcfa-3223-50a4fb730191::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 585%0D%0A
+CONFIGID.UPNP.ORG: 3%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="70" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:40:22:507</start>
+  <client domain="" ip="192.168.0.3" port="37878" />
+  <host ip="192.168.0.26" bindip="" port="65420" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:39:54 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.3:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: cec3441e-1dd1-11b2-9c53-e59585693452%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:8facc1c4-d732-dcfa-3223-50a4fb730191::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 585%0D%0A
+CONFIGID.UPNP.ORG: 3%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="71" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:40:22:507</start>
+  <client domain="" ip="192.168.0.2" port="40958" />
+  <host ip="192.168.0.26" bindip="" port="65420" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:39:55 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.2:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: 6c7efb16-1dd2-11b2-b65a-89066ccce430%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:255428d1-8ce6-8b0d-7b3a-8c5d7ac61f14::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 991%0D%0A
+CONFIGID.UPNP.ORG: 2%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="72" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:40:23:507</start>
+  <client domain="" ip="192.168.0.3" port="56011" />
+  <host ip="192.168.0.26" bindip="" port="65420" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:39:55 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.3:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: cec3441e-1dd1-11b2-9c53-e59585693452%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:8facc1c4-d732-dcfa-3223-50a4fb730191::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 585%0D%0A
+CONFIGID.UPNP.ORG: 3%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="73" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:40:23:507</start>
+  <client domain="" ip="192.168.0.2" port="60923" />
+  <host ip="192.168.0.26" bindip="" port="65420" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:39:56 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.2:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: 6c7efb16-1dd2-11b2-b65a-89066ccce430%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:255428d1-8ce6-8b0d-7b3a-8c5d7ac61f14::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 991%0D%0A
+CONFIGID.UPNP.ORG: 2%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="74" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:42:21:458</start>
+  <client domain="" ip="192.168.0.3" port="45685" />
+  <host ip="192.168.0.26" bindip="" port="65425" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:41:53 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.3:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: cec3441e-1dd1-11b2-9c53-e59585693452%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:8facc1c4-d732-dcfa-3223-50a4fb730191::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 585%0D%0A
+CONFIGID.UPNP.ORG: 3%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="75" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:42:21:458</start>
+  <client domain="" ip="192.168.0.2" port="58806" />
+  <host ip="192.168.0.26" bindip="" port="65425" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:41:54 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.2:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: 6c7efb16-1dd2-11b2-b65a-89066ccce430%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:255428d1-8ce6-8b0d-7b3a-8c5d7ac61f14::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 991%0D%0A
+CONFIGID.UPNP.ORG: 2%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="76" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:42:22:527</start>
+  <client domain="" ip="192.168.0.3" port="55335" />
+  <host ip="192.168.0.26" bindip="" port="65425" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:41:54 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.3:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: cec3441e-1dd1-11b2-9c53-e59585693452%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:8facc1c4-d732-dcfa-3223-50a4fb730191::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 585%0D%0A
+CONFIGID.UPNP.ORG: 3%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="77" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:42:22:527</start>
+  <client domain="" ip="192.168.0.2" port="35866" />
+  <host ip="192.168.0.26" bindip="" port="65425" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:41:55 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.2:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: 6c7efb16-1dd2-11b2-b65a-89066ccce430%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:255428d1-8ce6-8b0d-7b3a-8c5d7ac61f14::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 991%0D%0A
+CONFIGID.UPNP.ORG: 2%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="78" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:42:23:557</start>
+  <client domain="" ip="192.168.0.3" port="58459" />
+  <host ip="192.168.0.26" bindip="" port="65425" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:41:55 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.3:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: cec3441e-1dd1-11b2-9c53-e59585693452%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:8facc1c4-d732-dcfa-3223-50a4fb730191::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 585%0D%0A
+CONFIGID.UPNP.ORG: 3%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="79" type="Closed Port" action="Sniff" name="UDP Packet" protocol="UDP" severity="High">
+  <start>2017-07-16 02:42:23:557</start>
+  <client domain="" ip="192.168.0.2" port="60377" />
+  <host ip="192.168.0.26" bindip="" port="65425" />
+  <connection closedby="Client" />
+  <recBytes>515</recBytes>
+  <received size="515" coding="kf"><![CDATA[HTTP/1.1 200 OK%0D%0A
+CACHE-CONTROL: max-age=1800%0D%0A
+DATE: Mon, 17 Jul 2017 04:41:56 GMT%0D%0A
+EXT:%0D%0A
+LOCATION: http://192.168.0.2:8008/ssdp/device-desc.xml%0D%0A
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01%0D%0A
+01-NLS: 6c7efb16-1dd2-11b2-b65a-89066ccce430%0D%0A
+SERVER: Linux/3.8.13+, UPnP/1.0, Portable SDK for UPnP devices/1.6.18%0D%0A
+X-User-Agent: redsonic%0D%0A
+ST: urn:dial-multiscreen-org:service:dial:1%0D%0A
+USN: uuid:255428d1-8ce6-8b0d-7b3a-8c5d7ac61f14::urn:dial-multiscreen-org:service:dial:1%0D%0A
+BOOTID.UPNP.ORG: 991%0D%0A
+CONFIGID.UPNP.ORG: 2%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="80" type="Closed Port" desc="Broadcast Packet" action="Sniff" name="UDP Packet" protocol="UDP" severity="High" isBroadcast="TRUE">
+  <start>2017-07-16 02:43:40:215</start>
+  <client domain="" ip="192.168.0.1" port="2190" />
+  <host ip="192.168.0.255" bindip="" port="2190" />
+  <connection closedby="Client" />
+  <recBytes>177</recBytes>
+  <received size="177" coding="kf"><![CDATA[TiVoConnect=1%0A
+swversion=1.0%0A
+method=broadcast%0A
+identity=uuid:4d696e69-444c-164e-9d41-10da43947e50%0A
+machine=ReadyDLNA: D6400%0A
+platform=pc/minidlna%0A
+services=TiVoMediaServer:8200/http%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="81" type="Connection" action="SimStdServer" name="DHCP" protocol="UDP" severity="Low">
+  <start>2017-07-16 02:44:49:248</start>
+  <client domain="admin-PC" ip="192.168.0.27" port="68" />
+  <host ip="" bindip="" port="67" />
+  <connection closedby="Client" />
+  <recBytes>556</recBytes>
+  <received size="556" coding="kf"><![CDATA[DHCP: Boot Request%0A
+Hardware type: Ethernet (10Mb)%0A
+Hardware address length: 6%0A
+Hops: 0%0A
+Transaction ID: AF0E0FF%0A
+Seconds elapsed: 0%0A
+Flags: Broadcast%0A
+Client IP: %0A
+Your (client) IP: %0A
+Next server IP: %0A
+Relay agent IP: %0A
+Client MAC: 08:00:27:E0:6C:B6%0A
+Server host name: {name not supplied}%0A
+Boot file name: {name not supplied}%0A
+Magic number: OK%0A
+Option 53: Message type = DHCP DISCOVER%0A
+Option 77: %0A
+Option 116: Auto-configuration %0A
+Option 61: Client identifier %0A
+Option 12: Host name = "admin-PC"%0A
+Option 60: Vendor class id = "MSFT 5.0"%0A
+Option 55: Parameter request list%0D%0A
+%0D%0A
+]]></received>
+</event>
+<event sensorid="kfsensor" id="82" type="Native Connection" desc="Broadcast Packet" action="Native" name="DHCP Client" protocol="UDP" severity="Low" isBroadcast="TRUE">
+  <start>2017-07-16 02:44:49:398</start>
+  <client domain="" ip="192.168.0.1" port="67" />
+  <host ip="255.255.255.255" bindip="" port="68" />
+  <connection closedby="Client" />
+  <recBytes>548</recBytes>
+  <received size="548" coding="kf"><![CDATA[%02%01%06%00%0A
+%F0%E0%FF%00%00%80%00%00%00%00%00%C0%A8%00%1B%00%00%00%00%00%00%00%00%08%00'%E0l%B6%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00c%82Sc5%01%026%04%C0%A8%00%013%04%00%01Q~%01%04%FF%FF%FF%00%03%04%C0%A8%00%01%06%04%C0%A8%00%01%FF%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00]]></received>
+</event>
+<event sensorid="kfsensor" id="83" type="Closed Port" desc="Broadcast Packet" action="Sniff" name="UDP Packet" protocol="UDP" severity="High" isBroadcast="TRUE">
+  <start>2017-07-16 02:45:39:367</start>
+  <client domain="" ip="192.168.0.1" port="2190" />
+  <host ip="192.168.0.255" bindip="" port="2190" />
+  <connection closedby="Client" />
+  <recBytes>177</recBytes>
+  <received size="177" coding="kf"><![CDATA[TiVoConnect=1%0A
+swversion=1.0%0A
+method=broadcast%0A
+identity=uuid:4d696e69-444c-164e-9d41-10da43947e50%0A
+machine=ReadyDLNA: D6400%0A
+platform=pc/minidlna%0A
+services=TiVoMediaServer:8200/http%0A
+]]></received>
+</event>
